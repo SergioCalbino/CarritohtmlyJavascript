@@ -49,12 +49,13 @@ function eliminarCurso(e) {
         console.log(articulosCarrito)
         carritoHTML() // Volvemos a iterar sobre el carrito y mostar el html
     }
+    alert('Articulo eliminado de forma correcta')
     
 }
 
 //Lee el contendio del HTML al que le dimos click
 
-function leerDatosCurso(curso) {
+function leerDatosCurso(curso) { // Seria curso seleccionado
     
 
     //Crear objeto con contenido del curso actual;
@@ -89,6 +90,7 @@ function leerDatosCurso(curso) {
     }
     //Agrega elementos al arreglo de carritos
     carritoHTML()
+    alert('Articulo agregado de forma correcta')
 };
 
 
@@ -97,6 +99,7 @@ function carritoHTML() {
 
     //Limpiar el HTML
     limpiarHTML()
+    
 
 
     // Recorre el carrito y genera el HTML
